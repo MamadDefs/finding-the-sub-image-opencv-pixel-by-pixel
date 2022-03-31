@@ -1,6 +1,6 @@
 import cv2 as cv
-
-
+import numpy as np
+#compare function
 def compare(original, crop):
     difference = cv.subtract(original, crop)
     b, g, r = cv.split(difference)
