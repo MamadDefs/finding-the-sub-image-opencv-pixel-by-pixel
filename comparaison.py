@@ -13,7 +13,7 @@ crop_image = cv.imread("crop.jpg")
 originalHeight, originalWidth, originalZ = original.shape
 cropHeight, cropWidth, cropZ = crop_image.shape
 minI, minJ = 0, 0
-imageMin = 1100
+imageMin = 1500
 flag = False
 for i in range(originalHeight-cropHeight):
     for j in range(originalWidth-cropWidth):
